@@ -1,4 +1,4 @@
-# Redes Neuronales
+# Redes Neuronales WORK IN PROGRESS!
 En este apartado se incluyen los conocimientos necesarios para entender el funcionamiento de las redes neuronales y su uso para problemas de segmentación.
 ## 1 Introducción a las redes neuronales
 Una red neuronal es un sistema de procesamiento de la información compuesto por nodos o neuronas interconectadas. Estas neuronas asignan un valor numérico o peso a sus entradas y producen una salida que permite resolver problemas de regresión (predecir una cantidad) y clasificación (predecir una clase).
