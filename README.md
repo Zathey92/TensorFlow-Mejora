@@ -4,8 +4,7 @@ En este apartado se incluyen los conocimientos necesarios para entender el funci
 Una red neuronal es un sistema de procesamiento de la información compuesto por nodos o neuronas interconectadas. Estas neuronas asignan un valor numérico o peso a sus entradas y producen una salida que permite resolver problemas de regresión (predecir una cantidad) y clasificación (predecir una clase).
 ### 1.1 Funcionamiento de una neurona
 Cuando las entradas a una neurona superan un umbral, esta se activa propagando su salida. Las conecciones de entrada que son fuertes aportan más que las débiles a esta activación. A continuación se describe el modelo matemático más simple que implementa el funcionamiento de una neurona biológica.
-<img src="http://drive.google.com/uc?export=view&id=0B2_2YevJnwmmeGYyVi1kOGFBUDcwbFBHUnJHNW9HTzNHanhB" alt="Google Logo">
-Modelo de una neurona.
+<img src="http://drive.google.com/uc?export=view&id=0B2_2YevJnwmmeGYyVi1kOGFBUDcwbFBHUnJHNW9HTzNHanhB" alt="Modelo de una neurona">
 
 Siendo xi la entrada y los parámetros ajustables wi y b, tenemos que la función para la regresión lineal es:
 z=i(wixi) + b
