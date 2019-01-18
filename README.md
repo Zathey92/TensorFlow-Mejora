@@ -1,8 +1,8 @@
 # Redes Neuronales
 En este apartado se incluyen los conocimientos necesarios para entender el funcionamiento de las redes neuronales y su uso para problemas de segmentación.
-1 Introducción a las redes neuronales
+## 1 Introducción a las redes neuronales
 Una red neuronal es un sistema de procesamiento de la información compuesto por nodos o neuronas interconectadas. Estas neuronas asignan un valor numérico o peso a sus entradas y producen una salida que permite resolver problemas de regresión (predecir una cantidad) y clasificación (predecir una clase).
-1.1 Funcionamiento de una neurona
+### 1.1 Funcionamiento de una neurona
 Cuando las entradas a una neurona superan un umbral, esta se activa propagando su salida. Las conecciones de entrada que son fuertes aportan más que las débiles a esta activación. A continuación se describe el modelo matemático más simple que implementa el funcionamiento de una neurona biológica.
 <img src="http://drive.google.com/uc?export=view&id=0B2_2YevJnwmmeGYyVi1kOGFBUDcwbFBHUnJHNW9HTzNHanhB" alt="Google Logo">
 Modelo de una neurona.
@@ -55,7 +55,7 @@ Los datos de entrada son conocidos y utilizamos una función de coste dependient
 
 Aprendizaje supervisado
 En el aprendizaje supervisado se conocen los pares de datos de entrada y la salida. Se utiliza una función de error, como puede ser el error cuadrático medio, entre la salida de la red y la salida deseada para ajustar los parámetros de la red.
-## 1.2 El Gradiente y la propagación hacia atrás
+### 1.2 El Gradiente y la propagación hacia atrás
 
 El gradiente es un vector de n-dimensiones que proporciona la dirección de crecimiento y la variación de una función con respecto a los cambios de sus variables independientes. En nuestro caso el gradiente del error tendrá tantas dimensiones como variables entrenables y, al conocer hacia dónde decrece la función de error, podremos encontrar sus valores óptimos.
 
@@ -113,7 +113,7 @@ No suele ser necesario decrecer el ratio de aprendizaje con el número de iterac
 Ejemplo de descenso por gradiente sobre la función de error para una variable.
 En caso de que el tipo de datos de entrada tenga grandes diferencias entre sí puede ocurrir que la red deshaga los cambios en los pesos al tratar de minimizar sus errores por separado. Por lo tanto, se recomiendo calcular la media del error sobre un conjunto o lote de datos que preferiblemente contenga un caso de cada tipo. En numerosas ocasiones no es posible separar en diferentes clases los datos de entrada, por lo que suele recomendarse su reordenación de manera aleatoria antes de extraer el mayor número posible para el lote.
 
-## 1.3 Funciones de activación
+### 1.3 Funciones de activación
 
 Como vimos anteriormente las funciones de activación juegan un papel importante en el cálculo del gradiente. Es común encontrar en una arquitectura multicapa dos tipos de funciones de activación, el que utiliza las capas internas para aprender y el que utiliza la capa de salida para producir el resultado del problema tratado.
 
