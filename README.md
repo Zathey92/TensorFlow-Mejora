@@ -3,7 +3,6 @@
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Download PDF</a>.</p>
     </embed>
 </object>
-[[Gollum|doc.pdf]]
 # Redes Neuronales WORK IN PROGRESS!
 En este apartado se incluyen los conocimientos necesarios para entender el funcionamiento de las redes neuronales y su uso para problemas de segmentación.
 ## 1 Introducción a las redes neuronales
